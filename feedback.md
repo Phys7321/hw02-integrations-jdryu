@@ -1,0 +1,1 @@
+Okay, so this looks better than what I assume was your old work. I would refer you to quiver to display the electric field vectors and I would also like you to indicate how you would run your python code. You have a number of functions and then a program in the .py file, how would you like my to run it?
