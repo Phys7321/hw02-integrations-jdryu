@@ -114,6 +114,8 @@ for i in range(len(x)):
     for j in range(len(y)):
         if x[i]**2 + y[j]**2 > 4.5:
             Z[i][j] = epotentialxy(rho3, ax=-2, bx=2, ay=lambda xr: -math.sqrt(4-xr**2), by=lambda xr: math.sqrt(4-xr**2), x=x[i], y=y[j])
+        else:
+            Z[i][j] = y[j]
 im = plt.imshow(Z, cmap='Reds', extent=(-5, 5, 5, -5))
 plt.colorbar(im)
 plt.title("Electric potential for disk charge (units of k)")
