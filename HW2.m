@@ -23,10 +23,8 @@ colorbar()
 xlabel('x')
 ylabel('y')
 [U1, V1] = gradient(Z1);
-startx = [ones(1,10).*(-5) linspace(-5,5,10) ones(1,10).*5 linspace(-5,5,10)];
-starty = [linspace(-5,5,10) ones(1,10).*5 linspace(-5,5,10) ones(1,10).*(-5)];
 hold on
-streamline(xx, yy, U1, V1, startx, starty);
+quiver(xx, yy, U1, V1);
 hold off
 
 f2x = @(a, i, j) (a.^2) ./ sqrt((a-i).^2+j.^2);
@@ -54,7 +52,7 @@ xlabel('x')
 ylabel('y')
 [U2, V2] = gradient(Z2);
 hold on
-streamline(xx, yy, U2, V2, startx, starty);
+quiver(xx, yy, U2, V2);
 hold off
 
 f3 = @(a, b, i, j) a ./ sqrt((a-i).^2+(b-j).^2);
@@ -84,5 +82,5 @@ xlabel('x')
 ylabel('y')
 [U3, V3] = gradient(Z3);
 hold on
-streamline(xx, yy, U3, V3, startx, starty);
+quiver(xx, yy, U3, V3);
 hold off
