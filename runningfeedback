@@ -1,0 +1,11 @@
+# Feedback
+10.12
+I *see* now, you've been hiding your stuff on your own github page!
+### Challenge 1
+I'm happy with this. The error graph even shows a nice comparison, and shows that the trapezoid is the worst in accuracy, which you would expect.
+### HW1
+I'm happy with is as well, but you're just too efficient with your python code. Meaning that you shouldn't always close() your figure right after you show it. In the future, I'd like you to code so that all the figures remain open and visible.
+### Challenge 2
+Looks like you're half way done here. Can you show your convergence plot on the 22nd. I wanted to make a point about rk4 vs euler method convergence difference but didn't, I think your graph does it nicely
+### HW2
+These electric field graphs look good. I know that you would think that streamline would be the best to illustrate the electric field, but it is not - I'd like to see a quiver plot of these. Also, I'm having problems with the disk picture in your python code. it looks very odd on my end, is this something you also see?
